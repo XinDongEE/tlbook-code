@@ -44,5 +44,10 @@ If you find the code or the book helpful, please consider citing our book as:
 ```
 
 ## Recommended Repo
-
 My unified transfer learning repo (and **the most popular** transfer learning repo on Github) has everything you need for transfer learning: https://github.com/jindongwang/transferlearning. Including: Papers, codes, datasets, benchmarks, applications etc. 
+
+
+## Tips
+
+迁移学习的核心是，找到源领域和目标领域之间的相似性，举一个杨强教授经常举的例子来说明：我们都知道在中国大陆开车时，驾驶员坐在左边，靠马路右侧行驶。这是基本的规则。
+然而，如果在英国、香港等地区开车，驾驶员是坐在右边，需要靠马路左侧行驶。那么，如果我们从中国大陆到了香港，应该如何快速地适应 他们的开车方式呢？诀窍就是找到这里的不变量：不论在哪个地区，驾驶员都是紧靠马路中间。这就是我们这个开车问题中的不变量。 找到相似性 (不变量)，是进行迁移学习的核心。
